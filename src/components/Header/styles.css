@@ -1,0 +1,29 @@
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    padding: 34px 0px;
+
+    background-color: #000000;
+}
+
+.header__title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-size: 20px;
+        
+        width: 90vw;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}

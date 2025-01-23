@@ -1,0 +1,26 @@
+.systems__container{
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    padding: 30px 20px;
+}
+
+.systems__card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-bottom: 20px;
+    padding: 30px;
+
+    font-weight: lighter;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+}
+
+.systems__card:hover{
+    background-color: #1a1a1a;
+}
