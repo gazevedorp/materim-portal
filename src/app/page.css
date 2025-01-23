@@ -24,3 +24,9 @@
 .systems__card:hover{
     background-color: #1a1a1a;
 }
+
+@media screen and (max-width: 768px) {
+    .systems__card{
+        font-size: 12px;
+    }
+}
